@@ -19,7 +19,7 @@
 
 选择卡片后就可进行可视化编辑。
 
-<img src="hello-card.png" alt="Hello Card 效果预览" width="40%">
+![Hello Card 效果预览](hello-card.png)
 
 YAML的资源调用方法
 ~~~
