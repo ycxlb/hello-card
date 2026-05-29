@@ -5,9 +5,13 @@ Home Assistant 多功能合集卡片
 **HACS安装方法**
 
 如果是使用HACS安装，请选择右上角的三个点后，点选“自定义仓库”，
+
 仓库地址为： https://github.com/ycxlb/hello-card
+
 类型为：仪表盘（Dashboard）
+
 添加完成后，在 HACS 里搜索和显示的名称就是 Hello Card，
+
 然后下载安装并重启HA.
 
 **添加卡片时注意选择为**
