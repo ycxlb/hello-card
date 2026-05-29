@@ -2,7 +2,7 @@
   "name": "Hello Card",
   "type": "plugin",
   "domain": "dashboard",
-  "filename": "hello-card/hello-card.js",
+  "filename": "hello-card.js",
   "homeassistant": "2025.8.1",
   "render_readme": true
 }
