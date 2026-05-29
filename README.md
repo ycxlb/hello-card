@@ -1,6 +1,6 @@
 # hello-card
 
-Home Assistant 多功能合集卡片
+## Home Assistant 多功能合集卡片
 
 **HACS安装方法**
 
@@ -18,6 +18,13 @@ Home Assistant 多功能合集卡片
 
 选择卡片后就可进行可视化编辑。
 
+YAML的资源调用方法
+~~~
+mode: yaml
+resources:
+  - url: /hacsfiles/hello-card/hello-card.js
+    type: module
+~~~  
 **添加卡片时注意选择为**
 
    以下操作一般都需要添加监控的实体数据，根据列出的实体数据显示符合条件的对应信息，
