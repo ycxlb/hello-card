@@ -19,7 +19,7 @@
 
 选择卡片后就可进行可视化编辑。
 
-![Hello Card 效果预览](hello-card.png)
+![Hello Card 效果预览](hellocard.png)
 
 YAML的资源调用方法
 ~~~
@@ -67,6 +67,10 @@ url:
 ~~~
 - `hello-infodata-button.js`： <pre>根据实体属性按照设定好的换算条件计算后的数据再根据设定的过滤条件统计出符合条件的数据  
                                个数并在界面显示按钮，点击按钮弹出详细信息，支持跨实体、多级公式和括号运行</pre>
+
+![Hello Card 效果预览](light1.png)
+
+![Hello Card 效果预览](light2.png)
 
 🚀 调用方法：
 ~~~
