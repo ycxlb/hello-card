@@ -19,6 +19,13 @@
 
 选择卡片后就可进行可视化编辑。
 
+<img src="hello-card.png" alt="Hello Card 效果预览" style="
+  float: right;
+  width: 40%;
+  margin: 0 0 15px 15px; /* 左、下留白，防止贴文字 */
+  border-radius: 8px;      /* 圆角，好看一点 */
+">
+
 YAML的资源调用方法
 ~~~
 mode: yaml
