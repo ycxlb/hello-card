@@ -4,6 +4,7 @@
 
 **HACS安装方法**
 
+💡
 如果是使用HACS安装，请选择右上角的三个点后，点选“自定义仓库”，
 
 仓库地址为： https://github.com/ycxlb/hello-card
@@ -34,13 +35,15 @@ resources:
 文件列表如下：
 
 - `hello-world-card.js`： 在按钮上显示配置的文字
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-world-card
 name: 计算机科学
 ~~~
 - `hello-image-card.js`： 多张图片随机背景，图片URL列表中每张图片地址输完回车
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-image-card
 top: 0vh
@@ -51,9 +54,19 @@ url:
 ~~~
 - `hello-video-card.js`： 多个视频随机背景，视频URL列表中每个视频地址输完回车
 
+🚀 调用方法：
+~~~
+type: custom:hello-video-card
+top: 0vh
+url:
+  - https://www.xxx.com/mp4/1.mp4
+  - https://www.xxx.com/mp4/2.mp4
+  - https://www.xxx.com/mp4/3.mp4
+~~~
 - `hello-infodata-button.js`： <pre>根据实体属性按照设定好的换算条件计算后的数据再根据设定的过滤条件统计出符合条件的数据  
                                个数并在界面显示按钮，点击按钮弹出详细信息，支持跨实体、多级公式和括号运行</pre>
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-infodata-button
 name: 数据集信息统计
@@ -85,7 +98,8 @@ columns: "1"
 theme: "on"
 ~~~
 - `hello-infodata-card.js`： 在界面上显示符合条件的数据
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-infodata-card
 name: 异常检测
@@ -107,7 +121,8 @@ columns: "1"
 theme: "off"
 ~~~
 - `hello-todo-button.js`： 在界面上集成显示待办事项（未办理）的个数按钮，点击按钮弹出待办详细信息
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-todo-button
 badge_mode: false
@@ -120,7 +135,8 @@ entities:
   - todo.work_tasks
 ~~~
 - `hello-todo-card.js`： 在界面上直接显示HA中的待办事项
-调用方法：
+
+🚀 调用方法：
 ~~~
 type: custom:hello-todo-card
 theme: "off"
