@@ -33,17 +33,17 @@ resources:
 
 文件列表如下：
 
-hello-world-card.js 在按钮上显示配置的文字
+- `hello-world-card.js`： 在按钮上显示配置的文字
 
-hello-image-card.js 多张图片随机背景，图片URL列表中每张图片地址输完回车
+- `hello-image-card.js`： 多张图片随机背景，图片URL列表中每张图片地址输完回车
 
-hello-video-card.js 多个视频随机背景，视频URL列表中每个视频地址输完回车
+- `hello-video-card.js`： 多个视频随机背景，视频URL列表中每个视频地址输完回车
 
-hello-infodata-button.js 根据实体属性按照设定好的换算条件计算后的数据再根据设定的过滤条件统计出符合条件的数据
+- `hello-infodata-button.js`： 根据实体属性按照设定好的换算条件计算后的数据再根据设定的过滤条件统计出符合条件的数据
                          个数并在界面显示按钮，点击按钮弹出详细信息，支持跨实体、多级公式和括号运行
 
-hello-infodata-card.js 在界面上显示符合条件的数据
+- `hello-infodata-card.js`： 在界面上显示符合条件的数据
 
-hello-todo-button.js 在界面上集成显示待办事项（未办理）的个数按钮，点击按钮弹出待办详细信息
+- `hello-todo-button.js`： 在界面上集成显示待办事项（未办理）的个数按钮，点击按钮弹出待办详细信息
 
-hello-todo-card.js 在界面上直接显示HA中的待办事项
+- `hello-todo-card.js`： 在界面上直接显示HA中的待办事项
