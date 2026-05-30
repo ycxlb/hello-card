@@ -5,4 +5,5 @@
   "filename": "hello-card.js",
   "homeassistant": "2022.1.1",
   "render_readme": true
+  "icon": "mdi:sack"
 }
